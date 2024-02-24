@@ -1,0 +1,425 @@
+@media screen and (max-width:1279px) {
+    .service-main .slick-arrow {
+        display: none !important;
+
+    }
+}
+
+
+
+@media screen and (max-width:1151px) {
+    .light-main {
+        padding: 70px 70px;
+    }
+}
+
+
+@media screen and (max-width:1023px) {
+    .light-main {
+        padding: 70px 50px;
+    }
+}
+
+
+
+@media screen and (max-width:991px) {
+    .menu {
+        column-gap: 15px;
+    }
+
+    .menu div ul {
+        column-gap: 10px;
+
+    }
+
+    .light-main {
+        padding: 50px 25px 50px 25px;
+    }
+
+    .light-text p {
+        font-size: 18px;
+    }
+
+    .light-text span {
+        font-size: 20px;
+    }
+
+    .footrt-logo {
+        width: auto;
+        padding-bottom: 35px;
+    }
+
+    .compny {
+        width: auto;
+
+    }
+
+    .compny-two {
+        width: auto;
+    }
+
+    .icon-main {
+        width: 100%;
+        /* padding-top: 35px; */
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+    }
+
+    .header-bottom {
+        padding: 15px 0;
+    }
+
+    #service-main {
+        padding: 40px 0;
+    }
+
+    .btn {
+        column-gap: 8px;
+    }
+
+    .menu ul {
+        column-gap: 12px;
+    }
+
+    .drop-down {
+        top: 54px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .menu>ul {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background: #e36024;
+        flex-direction: column;
+        padding: 20px 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all ease 0.5s;
+    }
+
+    .menu>ul>li {
+        padding: 5px 0;
+        width: 100%;
+    }
+
+    .menu>ul>li>a {
+        display: block;
+        padding: 0 15px;
+        line-height: 30px;
+        color: #000;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .open-menu .menu>ul {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .menu .dropdown-icon {
+        position: absolute;
+        top: 5px;
+        z-index: 2;
+        right: 15px;
+        width: 40px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .drop .drop-down,
+    .drop:hover .drop-down {
+        visibility: visible;
+        opacity: 1;
+        transform: inherit;
+        position: relative;
+        box-shadow: none;
+        top: 0;
+        width: 100%;
+        display: none;
+    }
+
+        .drop.open-drop-menu .drop-down {
+            display: block;
+        }
+
+    .menu .open-drop-menu .dropdown-icon i:before {
+        content: "\f106";
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .open-menu .bar i:before {
+        content: '\f00d ';
+        font-size: 22px;
+    }
+
+    .light-main {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    .light-text p {
+        font-size: 20px;
+    }
+
+    .light-img img {
+        width: 100%;
+        max-width: 338px;
+        height: auto;
+    }
+
+    .light-text span {
+        font-size: 22px;
+    }
+
+    #light {
+        padding: 50px 0;
+    }
+
+    .header-bottom {
+        padding: 10px 0;
+    }
+
+    #header-bottom {
+        padding: 10px 0;
+    }
+
+    .footrt-logo {
+        width: auto;
+        padding-bottom: 35px;
+    }
+
+    .compny {
+        width: 40%;
+
+    }
+
+    .compny-two {
+        width: auto;
+    }
+
+    .icon-main {
+        width: 40%;
+        /* padding-top: 35px; */
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    .banner-main button {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+}
+
+.footer-top {
+    padding: 50px 0 40px 0;
+
+}
+
+@media screen and (max-width:639px) {
+    .banner-main p {
+        max-width: 487px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .banner-main h1 {
+        font-size: 38px;
+    }
+
+    .banner-main button {
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
+    #header-bottom {
+        padding: 8px 0;
+    }
+
+    .banner-main {
+        row-gap: 8px;
+    }
+
+    .light-text {
+        row-gap: 15px;
+    }
+
+    #light {
+        padding: 25px 0;
+    }
+
+    .compny-two {
+        padding-bottom: 20px;
+    }
+
+    .footer-bottom h3 {
+        line-height: 25px;
+
+    }
+
+    #footer-bottom {
+        background-color: #2A2D34;
+        padding: 12px 0 12px 0;
+    }
+
+    .footer-top {
+        padding: 32px 0;
+    }
+
+    .our p {
+        font-size: 18px;
+        padding: 0 16px;
+        line-height: 24px;
+        padding-top: 8px;
+    }
+}
+
+@media screen and (max-width:579px) {
+    .slick-dots li {
+        margin: 10px 7px 0 7px;
+        width: 15px;
+        height: 15px;
+
+    }
+
+    .service h4 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .service p {
+        font-size: 18px;
+        max-width: 500px;
+
+    }
+
+    .meadia-icon ul li a {
+        font-size: 24px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .compny {
+        width: 100%;
+
+    }
+
+    .icon-main {
+        width: 100%;
+    }
+
+    .light-img img {
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .banner-main h1 {
+        font-size: 32px;
+        /* line-height: 105.623%; */
+    }
+
+    .banner-main p {
+        max-width: 378px;
+        width: 100%;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .banner-main button {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .light-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .light-text span {
+        font-size: 16px;
+    }
+
+    .light-text {
+        row-gap: 15px;
+    }
+
+    .banner-img img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .light-main {
+        padding: 30px 20px 30px 20px;
+    }
+
+    #light {
+        padding: 15px 0;
+    }
+
+    .footrt-logo p {
+        line-height: 24px;
+    }
+
+    .footrt-logo {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .compny {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .compny-two {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .icon-main {
+        width: 100%;
+    }
+
+    .footer-top {
+        padding: 20px 0;
+    }
+
+    .banner-main h1 {
+        font-size: 30px;
+    }
+
+    .our h2 {
+        font-size: 25px;
+        line-height: 24px;
+    }
+
+    .service-main {
+        padding-top: 25px;
+    }
+    .btn button {
+        width: auto;
+        padding: 8px 4px;
+    }
+    .btn .login {
+        padding: 8px 16px;
+    }
+    .menu {
+        column-gap: 6px;
+    }
+
+}
